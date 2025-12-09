@@ -1,0 +1,13 @@
+{
+  "printWidth": 140,
+  "quoteProps": "consistent",
+  "semi": false,
+  "tabWidth": 4,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "useTabs": true,
+  "arrowParens": "always",
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "overrides": [{"files": ["*.frag"], "options": {"parser": "glsl-parser"}}]
+}
