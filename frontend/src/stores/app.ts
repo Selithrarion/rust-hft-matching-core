@@ -102,13 +102,13 @@ export const useAppStore = defineStore('app', () => {
 		lastError,
 		book,
 		trades,
-		candles, // Экспортируем свечи
+		candles,
 		bestAsk,
 		bestBid,
 		spread,
 		roundtripLatency,
 		processingLatencyNs,
 		measureLatency,
-		initializeConnection, // Expose the function
+		initializeConnection,
 	}
 })
